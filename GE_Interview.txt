@@ -1,0 +1,70 @@
+Core Java Conceptual questions.Not just theoretical questions.You may asked to write few collection questions.
+ OOPS and Design patterns 
+How would you design Data Integration system?  
+What is Abstract Factory, when do we need it? Provide an example.  
+Implement a function that counts the number of words in… 
+Implement a function that returns a union sorted list between two given sorted lists.
+Implement a function that returns an intersection sorted list between two given sorted lists.  
+1. Design Singleton Pattern.
+2. Difference between StringBuffer and StringBuilder
+3. Design Reservation system.
+4. Design the projects you worked on 
+
+
+--------------------
+Design patterns - Facade, Factory, Adapter, Bridge
+Linux command - Grep
+Explain how Spring solves dependency injection and inversion of control?
+What is REST? difference between REST vs HTTP?
+Sample code related to Polymorphism and final keywords
+Spring MVC - code on white board for model, view, controller and spring beans
+UML Diagrams.
+All the situation related type questions mentioned in the description from engineering manager.   …
+
+when do you use a virtual destructor  
+Design a queue using arrays  
+
+-------------\\
+ Write program to print number in text format.
+2. NULL pointer related questions.  
+3.Binary Searh
+
+---------
+1. What is a virtual?
+2. If class has virtual function, what happens in compile time and in run time?
+3. What is a polymorphism?
+4. Write the function that gets array of chars and returns number of elements with 3 bits ON, performance is important.
+5. Write the function that draws a line from x1,y1 to x2,y2
+6. You have very long function with many…
+
+------------------
+what is singleton class explain in detail with code... how to implement the same without static block
+a puzzle...if a bird in travelling between two moving trains(opposite direction) calculate total distance
+and a question based on data structure and os(cpu scheduling)  
+-------------
+Make a program to sort a random link list in ascending order.  
+
+
+
+Zygote process /thread started by DVM for Memory allocation for process
+
+
+How do you find memory leaks in Android applications?
+1. By Using MAT(Memory Analyzer Tool) means by heap dump  bt how ? One way is to use the Dump HPROF file button in DDMS
+HPROF-> A heap dump is a snapshot of an application's heap, which is stored in a binary format called HPROF.
+
+https://stackoverflow.com/questions/11064940/how-can-i-determine-if-my-android-app-has-memory-leak
+https://stackoverflow.com/questions/6080906/memory-analyzer-tool-in-android
+
+In Studio
+https://developer.android.com/studio/profile/investigate-ram.html
+
+
+Access Android Monitor
+View > Tool Windows > Android Monitor.
+
+Can Monitor Memory,CPU and GPU
+
+To analyze the heap dump, you can use a standard tool like jhat. To use jhat, you need to convert the HPROF file from Android format to the Java SE HPROF format. To convert to Java SE HPROF format, use the hprof-conv tool provided in the ANDROID_SDK/platform-tools/ directory. Run the hprof-conv command with two arguments: the original HPROF file and the location to write the converted HPROF file. For example:
+
+hprof-conv heap-original.hprof heap-converted.hprof 
